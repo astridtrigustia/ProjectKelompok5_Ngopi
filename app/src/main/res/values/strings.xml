@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ngopii</string>
+    <string name="tombol_order">ORDER</string>
+    <string name="tombol_nextorder">NEXT</string>
+    <string name="tombol_ok">OK</string>
+    <string-array name="daftar_menu">
+        <item> Kopi Susu       --  Rp 15.000,- </item>
+        <item> Caramel Latte   --  Rp 20.000,- </item>
+        <item> Hazelnut Latte  --  Rp 20.000,- </item>
+        <item> Vanilla Latte   --  Rp 20.000,- </item>
+        <item> Latte           --  Rp 18.000,- </item>
+        <item> Americano       --  Rp 12.000,- </item>
+        <item> Matcha Latte    --  Rp 20.000,- </item>
+        <item> Kopi Pandan     --  Rp 20.000,- </item>
+        <item> Mochacino       --  Rp 20.000,- </item>
+        <item> Kopi Milo       --  Rp 18.000,- </item>
+    </string-array>
+    <string name="nama_lengkap">Nama :</string>
+    <string name="no_hp">No. Handphone :</string>
+    <string name="alamat">Alamat :</string>
+    <string name="jk">Jenis Kelamin : </string>
+    <string name="laki_laki">Laki - Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="to_regis">REGISTER</string>
+</resources>

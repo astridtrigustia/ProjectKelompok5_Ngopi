@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:elevation="6dp"
+    android:backgroundTint="#B3FFFFCC"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/foto_menu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="18dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nama_menu"
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Nama Menu"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/harga_menu"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Rp harga"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/rating"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:numStars="5"
+            android:rating="3.5"
+            android:stepSize="0.5" />
+
+    </LinearLayout>
+
+</LinearLayout>

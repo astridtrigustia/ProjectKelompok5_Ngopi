@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_ici"
+    tools:context=".Daftar_Menu">
+
+    <SearchView
+        android:id="@+id/cari_menu"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/white"
+        android:iconifiedByDefault="false"
+        android:queryHint="Cari yang kamu mau .."
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+        android:divider="@drawable/background_ici"
+        android:dividerHeight="4dp"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:elevation="60dp"
+        />
+
+</LinearLayout>
